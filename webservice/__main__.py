@@ -17,4 +17,4 @@ if __name__ == "__main__":
     if port is not None:
         port = int(port)
 
-    web.run_app(app, port=8081 or port)
+    web.run_app(app, port=port)
